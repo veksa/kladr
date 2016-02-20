@@ -2,15 +2,15 @@
 namespace Kladr;
 
 /**
- * Объект КЛАДР
- * @property-read string          $Id          Идентификатор объекта
- * @property-read string          $Name        Название объекта
- * @property-read string          $Zip         Почтовый индекс объекта
- * @property-read string          $Type        Тип объекта полностью (область, район)
- * @property-read string          $TypeShort   Тип объекта коротко (обл, р-н)
- * @property-read string          $ContentType Тип объекта из перечисления ObjectType
- * @property-read string          $Okato       ОКАТО объекта
- * @property-read \Kladr\Object[] $Parents     Массив родительских объектов
+ * РћР±СЉРµРєС‚ РљР›РђР”Р 
+ * @property-read string          $Id          РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РѕР±СЉРµРєС‚Р°
+ * @property-read string          $Name        РќР°Р·РІР°РЅРёРµ РѕР±СЉРµРєС‚Р°
+ * @property-read string          $Zip         РџРѕС‡С‚РѕРІС‹Р№ РёРЅРґРµРєСЃ РѕР±СЉРµРєС‚Р°
+ * @property-read string          $Type        РўРёРї РѕР±СЉРµРєС‚Р° РїРѕР»РЅРѕСЃС‚СЊСЋ (РѕР±Р»Р°СЃС‚СЊ, СЂР°Р№РѕРЅ)
+ * @property-read string          $TypeShort   РўРёРї РѕР±СЉРµРєС‚Р° РєРѕСЂРѕС‚РєРѕ (РѕР±Р», СЂ-РЅ)
+ * @property-read string          $ContentType РўРёРї РѕР±СЉРµРєС‚Р° РёР· РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ ObjectType
+ * @property-read string          $Okato       РћРљРђРўРћ РѕР±СЉРµРєС‚Р°
+ * @property-read \Kladr\Object[] $Parents     РњР°СЃСЃРёРІ СЂРѕРґРёС‚РµР»СЊСЃРєРёС… РѕР±СЉРµРєС‚РѕРІ
  */
 class Object
 {
