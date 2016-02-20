@@ -1,5 +1,5 @@
 <?
-namespace Kladr;
+namespace veksa\kladr;
 
 /**
  * Контроллер для доступа к сервису

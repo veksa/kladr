@@ -1,5 +1,5 @@
 <?
-namespace Kladr;
+namespace veksa\kladr;
 
 /**
  * Перечисление типов объектов
